@@ -1,0 +1,96 @@
+<!--
+=========================================================
+Name        : index.html
+Assignment  : ENSF 381 - Assignment 1
+Author(s)   : Qasim Amar 30173325, Said Rahmani 30171486
+Submission  : Feb 5, 2024
+Description : The purpose of this assignment is to build the front-end of a simple e-commerce website.
+=========================================================
+-->
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Add meta tags, title, and link to styles.css here -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="Images/Logo.png" type="image/x-icon">
+<title>Shattered TIme - the Official Website</title>
+</head>
+<body>
+    <header>
+        <!-- Logo and website name go here -->
+        <table border="5px" bordercolor="black" cellpadding="5">
+            <tr>
+                <td>
+                    <img width="500 px" height="200 px" src="Images/Logo.png" alt="Company Logo">
+                </td>
+            </tr>
+        </table>
+        <br>
+        <table border="5px" bordercolor="black" cellpadding="5">
+            <tr>
+                <td bgcolor="gray">
+                    <h1 align="center" style="width: 500px; font-size: 60px;color:black;font-family: 'Courier New';">shattered<br>time</h1>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <div>
+        <!-- Navigation links go here -->
+        <br>
+        <table align="center" bordercolor="black" border="5" style="width: 1130px;">
+            <tr>
+                <td bgcolor="gray" align="center"><img width="40" height="40" src="Images/home.png" alt="Home Logo"></td>
+                <td bgcolor="gray" align="center"><img width="40" height="40" src="Images/Products.png" alt="Product Logo"></td>
+                <td bgcolor="gray" align="center"><img width="40" height="40" src="Images/Contact.png" alt="Contact Logo"></td>
+            </tr>
+            <tr>    
+                <td align="center" bgcolor="gray"><a style="font-size: 25px; color:black;" href="index.html">Home</a></td>
+                <td align="center" bgcolor="gray"><a style="font-size: 25px; color:black" href="products.html">Products</a></td>
+                <td align="center" bgcolor="gray"><a style="font-size: 25px; color:black;" href="contact.html">Contact Us</a></td>
+            </tr>
+        </table> 
+    </div>
+
+    <main>
+        <!-- About Us Section -->
+        <br>
+        <table align="center" bordercolor="black" border="10" style="width: 800px; height: 400px;">
+            <form>
+                <tr bgcolor="black" align="center">
+                    <th colspan="2">
+                        <h1 style="color: white;">Login</h1>
+                    </th>
+                </tr>
+                <tr bgcolor="gray">
+                    <th><label for="username" style="font-size: 25px;">Username</label></th>
+                    <td align="center"><input style="width: 90%; font-size: 20px;" type="text" name="username" id="username" placeholder="Enter your username" required></td>
+                </tr>
+                <tr bgcolor="gray">
+                    <th><label for="password" style="font-size: 25px;">Password</label></th>
+                    <td align="center"><input style="width: 90%; font-size: 20px;" type="password" name="password" id="password" placeholder="Enter your password" required></td>
+                </tr> 
+                <tr bgcolor="gray">
+                    <td colspan="2" align="center">
+                        <br>
+                        <button style="font-size: 20px;"><b><i>Sign In</i></b></button>
+                    </td>
+                </tr>
+                <tr bgcolor="gray">
+                    <td colspan="2" align="center">
+                        <br>
+                        <a style="color: black; font-size: 20px;" href=""><b>Sign Up</b></a>
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </main>
+    <footer>
+        <!-- Copyright notice goes here -->
+        <p> © Copyright shattered time 2024 - Qasim Amar, Said Rahmani</p>
+    </footer>
+</body>
+</html>
