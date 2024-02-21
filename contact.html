@@ -1,172 +1,214 @@
 <!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<!-- Add meta tags, title, and link to styles.css here -->
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
-<link rel="shortcut icon" href="Images/Logo.png" type="image/x-icon">
-<title>Shattered TIme - the Official Website</title>
-</head>
-<body>
+  <head>
+    <!-- Add meta tags, title, and link to styles.css here -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="Images/Logo.png" type="image/x-icon" />
+    <title>Shattered TIme - the Official Website</title>
+  </head>
+  <body>
     <header>
-        <!-- Logo and website name go here -->
-        <table border="5px" bordercolor="black" cellpadding="5">
-            <tr>
-                <td>
-                    <img width="500 px" height="200 px" src="Images/Logo.png" alt="Company Logo">
-                </td>
-            </tr>
-        </table>
-        <br>
-        <table border="5px" bordercolor="black" cellpadding="5">
-            <tr>
-                <td bgcolor="gray">
-                    <h1 align="center" style="width: 500px; font-size: 60px;color:black;font-family: 'Courier New';">shattered<br>time</h1>
-                </td>
-            </tr>
-        </table>
+      <!-- Logo and website name go here -->
+      <div class="flex-head">
+        <img width=300 px" height="200 px" src="Images/Logo.png" alt="Company
+        Logo">
+        <h1
+          align="center"
+          style="
+            width: 500px;
+            font-size: 60px;
+            color: white;
+            font-family: 'Courier New';
+          "
+        >
+          shattered<br />time
+        </h1>
+      </div>
     </header>
 
-    <div>
-        <!-- Navigation links go here -->
-        <br>
-        <table align="center" bordercolor="black" border="5" style="width: 1130px;">
-            <tr>
-                <td bgcolor="gray" align="center"><img width="40" height="40" src="Images/home.png" alt="Home Logo"></td>
-                <td bgcolor="gray" align="center"><img width="40" height="40" src="Images/Products.png" alt="Product Logo"></td>
-                <td bgcolor="gray" align="center"><img width="40" height="40" src="Images/Login.png" alt="Login Logo"></td>
-            </tr>
-            <tr>    
-                <td align="center" bgcolor="gray"><a style="font-size: 25px; color:black;" href="index.html">Home</a></td>
-                <td align="center" bgcolor="gray"><a style="font-size: 25px; color:black" href="products.html">Products</a></td>
-                <td align="center" bgcolor="gray"><a style="font-size: 25px; color:black;" href="login.html">Login</a></td>
-            </tr>
-        </table>  
+    <div class="flex-div">
+      <!-- Navigation links go here -->
+
+      <div class="flex-links">
+        <img
+          class="flex-item-div"
+          width="40"
+          height="40"
+          src="Images/home.png"
+          alt="Product Logo"
+        />
+        <a
+          class="flex-item-div"
+          style="font-size: 25px; color: white"
+          href="index.html"
+          >Home</a
+        >
+      </div>
+      <div class="flex-links">
+        <img
+          class="flex-item-div"
+          width="40"
+          height="40"
+          src="Images/Products.png"
+          alt="Product Logo"
+        />
+        <a
+          class="flex-item-div"
+          style="font-size: 25px; color: white"
+          href="products.html"
+          >Products</a
+        >
+      </div>
+      <div class="flex-links">
+        <img
+          class="flex-item-div"
+          width="40"
+          height="40"
+          src="Images/Login.png"
+          alt="Login Logo"
+        />
+        <a
+          class="flex-item-div"
+          style="font-size: 25px; color: white"
+          href="login.html"
+          >Login</a
+        >
+      </div>
     </div>
 
     <main>
-        <br>
-        <table border="5px" bordercolor="black" align="center">
-            <tr bgcolor="gray">
-                <td align="center">
-                    <h1>Contact Us</h1>
-                </td>
-            </tr>
-            <tr bgcolor="gray">
-                <td>
-                    <p align="center" style="font-size: 20px;">
-                        If you have any questions, comments, or feedback about our products or services, we would love to hear from you. 
-                        You can reach us by email at shatteredtime@gmail.com, by phone at +1-800-123-4567, or by filling out the form below. 
-                        We will get back to you as soon as possible. You can also follow us on Facebook and Instagram to stay updated on our latest news and offers. 
-                        Thank you for choosing shattered time, where fashion is timeless.
-                    </p>
-                </td>
-            </tr>
+      <div class="flex-contact">
+        <div>
+          <div>
+            <h1>Contact Us</h1>
+          </div>
+          <div>
+            <p>
+              If you have any questions, comments, or feedback about our
+              products or services, we would love to hear from you. You can
+              reach us by email at shatteredtime@gmail.com, by phone at
+              +1-800-123-4567, or by filling out the form below. We will get
+              back to you as soon as possible. You can also follow us on
+              Facebook and Instagram to stay updated on our latest news and
+              offers. Thank you for choosing shattered time, where fashion is
+              timeless.
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-method">
+          <div>
+            <img
+              width="40"
+              height="40"
+              src="Images/Address.png"
+              alt="Address Logo"
+            />
+          </div>
+          <div>
+            <p style="font-size: 20px">
+              <b>Address</b><br />5171 Rainbow Road,<br />Mushroom Kingdom,<br />T4T
+              5E2
+            </p>
+          </div>
+        </div>
+
+        <div class="contact-method">
+        <div>
+            <img
+            width="40"
+            height="40"
+            src="Images/Phone.png"
+            alt="Phone Logo"
+          />
+          </div>
+          <div>
+            <p style="font-size: 20px"><b>Phone</b><br />+1-800-123-4567</p>
+          </div>
+        </div>
         
-        </table>
-        
-        <br>
-        <table align="center" bordercolor="black" border="5" style="width: 1130px;">
-            <tr align="center" bgcolor="black">
-                <td>
-                    <img width="40" height="40" src="Images/Address.png" alt="Address Logo">
-                </td>
-                <td>
-                    <img width="40" height="40" src="Images/Phone.png" alt="Phone Logo">
-                </td>
-                <td>
-                    <img width="40" height="40" src="Images/Mail.png" alt="Mail Logo">
-                </td>
-            </tr>
-            <tr align="center" bgcolor="gray">   
-                <td>
-                    <p style="font-size: 20px;"><b>Address</b><br>5171 Rainbow Road,<br>Mushroom Kingdom,<br>T4T 5E2</p>
-                </td>
-                <td>
-                    <p style="font-size: 20px;"><b>Phone</b><br>+1-800-123-4567</p>
-                </td>
-                <td>
-                    <p style="font-size: 20px;"><b>Email</b><br>shatteredtime@gmail.com</p>
-                </td>
-            </tr>
-        </table> 
+        <div class="contact-method">
+        <div>
+            <img width="40" height="40" src="Images/Mail.png" alt="Mail Logo"/>
+          </div>
+          <div>
+            <p style="font-size: 20px">
+                <b>Email</b><br />shatteredtime@gmail.com
+              </p>
+          </div>
+        </div>
 
-        <br>
+        <div class="contact-method">
+            <div>
+                <h1 style="color: black">Stay Updated via Social Media</h1>
+              </div>
+              <div>
+                <a class="sm-links" href="https://www.instagram.com/">
+                    Instagram
+                  </a>
+              </div>
+              <div>
+                <a class="sm-links" href="https://www.facebook.com/">
+                    Facebook
+                  </a>
+              </div>
+            </div>
+      </div>
 
-        <br>
 
-        <table align="center" bordercolor="black" border="5" style="width: 1130px;">
-            <tr align="center" bgcolor="gray">
-                <th colspan="2"><h1 style="color: black;">Stay Updated via Social Media</h1></th>
-            </tr>
-            <tr align="center" bgcolor="gray">
-                <td>
-                    <p style="font-size: 20px;">Instagram</p>
-                </td>
-                <td>
-                    <p style="font-size: 20px;">Facebook<p>
-                </td>
-            </tr>
-            <tr align="center" bgcolor="gray">
-                <td>
-                    <a href="https://www.instagram.com/">
-                        <img width="40px" height="40px" src="Images/instagram.png" alt="Instagram Logo">
-                    </a> 
-                </td>
-                <td>
-                    <a href="https://www.facebook.com/">
-                        <img width="40px" height="40px" src="Images/facebook.png" alt="Facebook Logo">
-                    </a>
-                </td>
-            </tr>
-        </table>
-
-        <br>
-        <br>
-
-        <table align="center" bordercolor="black" border="5" style="width: 550px;">
-            <form>
-                <tr bgcolor="black" align="center">
-                    <td>
-                        <h1 style="color: white;">Send Message</h1>
-                    </td>
-                </tr>
-                <tr bgcolor="gray" align="center">
-                    <td>
-                        <label style="font-size: 20px;" for="name"><b>Name:</b></label>
-                        <br>
-                        <input type="text" name="name" id="name">
-                    </td>
-                </tr>
-                <tr bgcolor="gray" align="center">
-                    <td>
-                        <label style="font-size: 20px;" for="email"><b>Email:</b></label>
-                        <br>
-                        <input type="text" name="email" id="email">
-                        <br>
-                    </td>
-                </tr>
-                <tr bgcolor="gray" align="center">
-                    <td>
-                        <label style="font-size: 20px;" for="message"><b>Message:</b></label>
-                        <br>
-                        <textarea name="message" id="message" cols="55" rows="3"></textarea>
-                        <br>
-                    </td>
-                </tr>
-                <tr bgcolor="gray" align="center">
-                    <td>
-                        <button style="font-size:20px ;"><b><i>Send</i></b></button>
-                    </td>
-                </tr>
-            </form>
-        </table>
+      <!-- <table align="center" bordercolor="black" border="5" style="width: 550px">
+        <form>
+          <tr bgcolor="black" align="center">
+            <td>
+              <h1 style="color: white">Send Message</h1>
+            </td>
+          </tr>
+          <tr bgcolor="gray" align="center">
+            <td>
+              <label style="font-size: 20px" for="name"><b>Name:</b></label>
+              <br />
+              <input type="text" name="name" id="name" />
+            </td>
+          </tr>
+          <tr bgcolor="gray" align="center">
+            <td>
+              <label style="font-size: 20px" for="email"><b>Email:</b></label>
+              <br />
+              <input type="text" name="email" id="email" />
+              <br />
+            </td>
+          </tr>
+          <tr bgcolor="gray" align="center">
+            <td>
+              <label style="font-size: 20px" for="message"
+                ><b>Message:</b></label
+              >
+              <br />
+              <textarea
+                name="message"
+                id="message"
+                cols="55"
+                rows="3"
+              ></textarea>
+              <br />
+            </td>
+          </tr>
+          <tr bgcolor="gray" align="center">
+            <td>
+              <button style="font-size: 20px">
+                <b><i>Send</i></b>
+              </button>
+            </td>
+          </tr>
+        </form>
+      </table> -->
     </main>
 
     <footer>
-        <p> © Copyright shattered time 2024 - Qasim Amar, Said Rahmani</p>
+      <p>© Copyright shattered time 2024 - Qasim Amar, Said Rahmani</p>
     </footer>
-</body>
+  </body>
 </html>

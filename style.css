@@ -116,3 +116,75 @@ footer{
 .cart-button:hover{
     background-color: #45A049;
 }
+
+.flex-contact{
+    display: flex;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.contact-method{
+    background-color: #ddd;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+}
+
+.sm-links{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.sm-links:hover{
+    color: #007BFF;
+}
+
+.login-button{
+    background-color: #4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    opacity: 0.5;
+}
+
+.login-button:hover{
+    background-color: #45A049;
+    opacity: 1.0;
+}
+
+.sign-up{
+    color: #007BFF;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.sign-up:hover{
+   text-decoration: underline;
+}
+
+.my-form{
+    display: flex;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-info label{
+    margin: 10px;
+    font-size: 25px;
+}
+
+.login-info input{
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
