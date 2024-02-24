@@ -1,107 +1,126 @@
 <!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<!-- Add meta tags, title, and link to styles.css here -->
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="style.css">
-<link rel="shortcut icon" href="Images/Logo.png" type="image/x-icon">
-<title>Shattered TIme - the Official Website</title>
-</head>
-<body>
+  <head>
+    <!-- Add meta tags, title, and link to styles.css here -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="Images/Logo.png" type="image/x-icon" />
+    <title>Shattered TIme - the Official Website</title>
+  </head>
+  <body>
     <header>
-        <!-- Logo and website name go here -->
-        <div class="flex-head">
-          <img width=300 px" height="200 px" src="Images/Logo.png" alt="Company
-          Logo">
-          <h1
-            align="center"
-            style="
-              width: 500px;
-              font-size: 60px;
-              color: white;
-              font-family: 'Courier New';
-            "
-          >
-            shattered<br />time
-          </h1>
-        </div>
-      </header>
-
-      <div class="flex-div">
-        <!-- Navigation links go here -->
-  
-        <div class="flex-links">
-          <img
-            class="flex-item-div"
-            width="40"
-            height="40"
-            src="Images/home.png"
-            alt="Product Logo"
-          />
-          <a
-            class="flex-item-div"
-            style="font-size: 25px; color: white"
-            href="index.html"
-            >Home</a
-          >
-        </div>
-        <div class="flex-links">
-          <img
-            class="flex-item-div"
-            width="40"
-            height="40"
-            src="Images/Products.png"
-            alt="Product Logo"
-          />
-          <a
-            class="flex-item-div"
-            style="font-size: 25px; color: white"
-            href="products.html"
-            >Products</a
-          >
-        </div>
-        <div class="flex-links">
-          <img
-            class="flex-item-div"
-            width="40"
-            height="40"
-            src="Images/Contact.png"
-            alt="Login Logo"
-          />
-          <a
-            class="flex-item-div"
-            style="font-size: 25px; color: white"
-            href="contact.html"
-            >Contact Us</a
-          >
-        </div>
+      <!-- Logo and website name go here -->
+      <div class="flex-head">
+        <img width=300 px" height="200 px" src="Images/Logo.png" alt="Company
+        Logo">
+        <h1
+          align="center"
+          style="
+            width: 500px;
+            font-size: 60px;
+            color: white;
+            font-family: 'Courier New';
+          "
+        >
+          shattered<br />time
+        </h1>
       </div>
+    </header>
+
+    <div class="flex-div">
+      <!-- Navigation links go here -->
+
+      <div class="flex-links">
+        <img
+          class="flex-item-div"
+          width="40"
+          height="40"
+          src="Images/home.png"
+          alt="Product Logo"
+        />
+        <a
+          class="flex-item-div"
+          style="font-size: 25px; color: white"
+          href="index.html"
+          >Home</a
+        >
+      </div>
+      <div class="flex-links">
+        <img
+          class="flex-item-div"
+          width="40"
+          height="40"
+          src="Images/Products.png"
+          alt="Product Logo"
+        />
+        <a
+          class="flex-item-div"
+          style="font-size: 25px; color: white"
+          href="products.html"
+          >Products</a
+        >
+      </div>
+      <div class="flex-links">
+        <img
+          class="flex-item-div"
+          width="40"
+          height="40"
+          src="Images/Contact.png"
+          alt="Login Logo"
+        />
+        <a
+          class="flex-item-div"
+          style="font-size: 25px; color: white"
+          href="contact.html"
+          >Contact Us</a
+        >
+      </div>
+    </div>
 
     <main>
-        <!-- About Us Section -->
+      <!-- About Us Section -->
 
-        <form class="my-form">
-            <div class="login-info">
-                <h1>Login</h1>
+      <form class="my-form">
+        <div class="login-info">
+          <h1>Login</h1>
+          <div>
+            <label class="label" for="username">Username</label>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Enter your username"
+              required
+            />
+          </div>
+          <div>
+            <label for="password">Password</label>
 
-                <label class="label" for="username">Username</label>
-                <input  type="text" name="username" id="username" placeholder="Enter your username" required>
-
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password" placeholder="Enter your password" required>
-
-                <button class="login-button" style="font-size: 20px;"><b><i>Login</i></b></button>
-
-                <a class="sign-up" href=""><b>Sign Up</b></a>
+            <div class="flex-log">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Enter your password"
+              required
+            />
+            <button class="login-button" style="font-size: 20px">
+                <b><i>Login</i></b>
+              </button>
             </div>
-        </form>
-
+          </div>
+          <div class="flex-log">
+            <p>Don't have an account?</p>
+            <a class="sign-up" href=""><b>Sign Up</b></a>
+          </div>
+        </div>
+      </form>
     </main>
     <footer>
-        <!-- Copyright notice goes here -->
-        <p> © Copyright shattered time 2024 - Qasim Amar, Said Rahmani</p>
+      <!-- Copyright notice goes here -->
+      <p>© Copyright shattered time 2024 - Qasim Amar, Said Rahmani</p>
     </footer>
-</body>
+  </body>
 </html>
